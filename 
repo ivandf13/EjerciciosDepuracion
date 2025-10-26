@@ -1,0 +1,21 @@
+warning: in the working copy of 'src/ejercicios/depuracion/Ejemplo2While.java', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/src/ejercicios/depuracion/Ejemplo2While.java b/src/ejercicios/depuracion/Ejemplo2While.java[m
+[1mindex ec5e9a4..eef12e0 100644[m
+[1m--- a/src/ejercicios/depuracion/Ejemplo2While.java[m
+[1m+++ b/src/ejercicios/depuracion/Ejemplo2While.java[m
+[36m@@ -13,7 +13,15 @@[m [mpublic class Ejemplo2While {[m
+         while (contador< n){[m
+                System.out.println(" * ");[m
+                contador++;[m
+[32m+[m[32m               System.out.println("contador: " + contador);[m
+         }[m
+[32m+[m[41m        [m
+     }[m
+[32m+[m[32m    public static int pedirNumero(){[m
+[32m+[m[32m        Scanner sc = new Scanner(System.in);[m
+[32m+[m[32m        System.out.println("Introducir un numero: ");[m
+[32m+[m[32m        return sc.nextInt();[m
+[32m+[m[32m    }[m
+[32m+[m[41m    [m
+ }[m
+ [m
