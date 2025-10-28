@@ -4,6 +4,9 @@ package ejercicios.depuracion;
  * programa que muestra una tabla de equivalencias entre 
  * grados Fahrenheit y grados celsius
  */
+/*
+ * Autor: iván
+ */
 public class Ejemplo3While {
     public static void main(String[] args) {
         final int VALOR_INICIAL = 10;  // limite inf. tabla
